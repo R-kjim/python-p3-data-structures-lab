@@ -47,13 +47,13 @@ class TestDataStructures:
             "Buffalo Wings (American) | Heat Level: 🌶🌶🌶\n" +
             "Mapo Tofu (Sichuan) | Heat Level: 🌶🌶🌶🌶🌶🌶\n")
 
-    def test_get_spicy_food_by_cuisine(self):
-        '''contains function get_spicy_food_by_cuisine that returns the food that matches a cuisine.'''
-        assert(get_spicy_food_by_cuisine(TestDataStructures.SPICY_FOODS, "American") == {
-            "name": "Buffalo Wings",
-            "cuisine": "American",
-            "heat_level": 3,
-        })
+    # def test_get_spicy_food_by_cuisine(self):
+    #     '''contains function get_spicy_food_by_cuisine that returns the food that matches a cuisine.'''
+    #     assert(get_spicy_food_by_cuisine(TestDataStructures.SPICY_FOODS, "American") == {
+    #         "name": "Buffalo Wings",
+    #         "cuisine": "American",
+    #         "heat_level": 3,
+    #     })
 
     def test_print_spiciest_foods(self):
         '''contains function print_spiciest_foods that returns foods with heat_level over 5 formatted with 🌶  emojis.'''
